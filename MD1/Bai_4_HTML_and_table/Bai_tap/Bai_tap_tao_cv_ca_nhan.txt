@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+<h2>Tạo CV cá nhân</h2>
+<ul>
+    <p>Họ và Tên:Quang Trung</p>
+    <p>Địa Chỉ:19 Nguyễn Lương Bằng</p>
+    <P>Số Điện Thoại:077224455</P>
+    <P>Email:quangtrung@gmail.com</P>
+    <p>Ảnh:không có</p>
+    <p>Học vấn:Năm 3 Đại Học DTU</p>
+    <p>Bằng cấp:Tốt Nghiệp Cấp2</p>
+    <p>Kỹ Năng:tele sale</p>
+    <p>Kinh nghiệm:6 month</p>
+    <p>Định Hướng phát triển cá nhân thành một lập trình viên full stack</p>
+</ul>
+<a>https://www.facebook.com/friends/requests/?profile_id=100027729741088</a>
+</body>
+</html>
