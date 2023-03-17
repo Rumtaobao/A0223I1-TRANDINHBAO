@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ĐĂNG KÝ HỌC VIÊN</title>
+</head>
+<body>
+   <h1 style=" background-color: aqua; color: blue">ĐĂNG KÝ HỌC VIÊN</h1>
+</body>
+<form>
+    <table style="background-color: darkgoldenrod" width="100%">
+        <tr>
+            <p style="background-color: aquamarine"></p>
+            <td><lable>Họ Và Tên:</lable></td>
+            <td><input type="next" name="Họ Và Tên"></td>
+        </tr>
+        <tr>
+            <td><lable>Ngày Sinh:</lable></td>
+            <td><input type="date" id="Ngày Sinh" name="Ngày sinh"></td>
+        </tr>
+
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+            <input type="radio" id="male" name="gender" required checked>
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="female">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="address">Địa chỉ:</lable>
+            </td>
+            <td>
+                <textarea id="address" row="2" cols="25"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Lớp">Lớp:</label>
+            </td>
+            <td>
+                <select id="Lớp">
+                    <option value="0">--Chọn Lớp--</option>
+                    <option value="Trung học phổ thông">Trung học phổ thông</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="text" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Điện Thoại">Điện Thoại</label>
+            </td>
+            <td>
+                <input type="text" id="Điện thoại" name="Điện Thoại"> <br>
+                <button type="submit">Đăng ký</button>
+                <button type="reset">Nhập Lại</button>
+            </td>
+        </tr>
+
+
+    </table>
+
+</form>
+</html>

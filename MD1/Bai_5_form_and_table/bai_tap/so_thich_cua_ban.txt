@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SỞ THÍCH CỦA BẠN</title>
+</head>
+<body style="margin: 0px; padding: 0px">
+<div style="width:540px ; background-color: aquamarine; height: 240px">
+
+    <div style="width:500px;background-color:white; height: 200px; position: absolute; top:20px; left:20px">
+        <Form>
+            <table>
+                <tr aria-rowspan="2"><h3 style="text-align: center; background-color: red; color: white">SỞ THÍCH CỦA
+                    BẠN</h3></tr>
+                <tr>
+                    <td><label>Họ Và Tên:</label></td>
+                    <td><input type="text" name="Họ và Tên" Size="30px"/></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" name="Email"/></td>
+
+                </tr>
+                <tr>
+                    <td class="sở thích">
+                        <lable>Sở thích:</lable>
+                    </td>
+                    <td style="color: orange">
+                        <input type="checkbox" name="hobby" value="on" >Thể thao
+                        <input type="checkbox" name="hobby" value="on">Âm nhạc
+                        <input type="checkbox" name="hobby" value="on">Đọc Sách<br>
+                        <input type="checkbox" name="hobby" value="on">Lướt wed
+                        <input type="checkbox" name="hobby" value="on">Chơi game
+                        <input type="checkbox" name="hobby" value="on">Điện ảnh<br>
+                        <input type="checkbox" name="hobby" value="on">Du lịch<br>
+                        <input type="submit" name="submit" value="Gửi thông tin">
+                        <input type="reset" name="reset" value="Nhập lại"><br>
+                    </td>
+
+                </tr>
+
+            </table>
+        </Form>
+    </div>
+</div>
+</body>
+</html>
