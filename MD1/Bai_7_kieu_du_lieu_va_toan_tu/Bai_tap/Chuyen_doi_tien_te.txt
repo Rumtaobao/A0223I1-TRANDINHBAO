@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+   <tr>
+       <td>Amount</td>
+       <td>From Currency</td>
+       <td>To Currency</td>
+   </tr>
+    <tr>
+        <td>
+            <input type="text" id="giatridauvao" >
+        </td>
+        <td>
+            <select name="" id="select1">
+                <option value="a">VietNam</option>
+                <option value="b">USD</option>
+            </select>
+        </td>
+        <td>
+            <select name="" id="select2">
+                <option value="a">Vietnam</option>
+                <option value="b">USD</option>
+            </select>
+        </td>
+        <td>
+            <button onclick="convert()">Convert</button>
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    function convert() {
+        let giatridauvao = document.getElementById("giatridauvao").value;
+        let select1 = document.getElementById('select1').value;
+        let select2 = document.getElementById('select2').value;
+        console.log(giatridauvao);
+        console.log("select1",select1);
+        console.log("select2",select2);
+        if (select1 == select2){
+            alert(giatridauvao);
+        }
+        if (select1 == "a" && select2 == "b"){
+            alert(giatridauvao/24000);
+        }
+
+    }
+</script>
+</html>
