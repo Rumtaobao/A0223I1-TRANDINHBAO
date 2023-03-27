@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap 3 so nguyen</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt ("nhập điểm bài kiểm tra"));
+    var b = parseInt(prompt ("điểm thi giữa kỳ"));
+    var c = parseInt(prompt ("điểm thi cuối kỳ"));
+    var num = ((a + b + c)/3);{
+        if (num >= 8.0) {
+            alert("học lực giỏi");
+        } else if (num >= 6.5){
+            alert("học lực khá");
+        }else {
+            alert("học lực trung bình");
+        }
+        }
+
+
+
+
+</script>
+</body>
+</html>

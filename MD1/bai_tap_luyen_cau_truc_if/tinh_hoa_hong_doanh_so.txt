@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính hoa hông</title>
+</head>
+<body>
+<script>
+    let a = +(prompt("nhập doanh thu"));
+    if (a <= 200) {
+        alert("doanh thu của bạn là " + a * 25 / 100 + "tỷ");
+    } else if (a <= 300) {
+        alert("doanh thu của bạn là " + a * 30 / 100 + "tỷ");
+    } else {
+        alert("doanh thu của bạn là " + a * 35 / 100 + "tỷ");
+    }
+</script>
+</body>
+</html>

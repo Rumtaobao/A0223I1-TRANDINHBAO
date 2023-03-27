@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap 3 so nguyen</title>
+</head>
+<body>
+<script>
+    let a = prompt("nhập số nguyên a");
+    let b = prompt("nhập số nguyên b");
+    let c = prompt("nhập số nguyên c");
+    if (a >= b && a >= c) {
+        alert(a+"giá trị lớn nhất là ");
+    } else {
+        if (b >= c) {
+            alert(b+"giá trị lớn nhất là ");
+        } else {
+        }
+        alert(c+" là giá trị lớn nhất");
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cau truc dieu kien</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập A");
+    let b = +prompt("Nhập B");
+    let c = a % b;
+    if (b === 0) {
+        alert("pt vô nghiệm");
+    } else if (c === 0) {
+        alert("A chia hết cho B");
+    } else {
+        alert("a không chia hết cho b")
+    }
+
+
+</script>
+</body>
+</html>
