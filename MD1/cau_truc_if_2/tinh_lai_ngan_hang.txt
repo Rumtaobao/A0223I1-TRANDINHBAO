@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lãi ngân hàng</title>
+</head>
+<body>
+<script>
+let a = prompt("nhập số tiền gởi");
+let b = prompt("số tháng gởi");
+let c = prompt("số % gởi")
+if (a>=1){
+    alert ("số tiền lãi bạn nhận là:"+a*(c/100)/12*b+"đ");
+}
+else if (a>=3){
+    alert("số tiền lãi bạn nhận là:"+a*(c/100)/12*b+"đ");
+}
+else if (a>=6){
+    alert ("số tiền lãi bạn nhận là:"+a*(c/100)/12*b+"đ");
+}
+else if (a>=12){
+    alert ("số tiền lãi bạn nhân là:"+a*(c/100)/12*b+"đ");
+}
+
+
+</script>
+</body>
+</html>

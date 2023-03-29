@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen doi nhiet do</title>
+</head>
+<body>
+<script>
+    let a = +(prompt("giá trị a"));
+    let b = +(prompt("giá trị b"));
+    let s = (1/2*(a*b))
+    {
+        alert ("diện tích hình chữ nhật"+ s);
+    }
+</script>
+</body>
+</html>

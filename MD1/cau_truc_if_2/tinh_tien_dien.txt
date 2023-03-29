@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính số điện</title>
+</head>
+<body>
+<script>
+let a = prompt("nhập số tiền điện");
+if (a>400){
+    alert ("số tiền bạn đóng là:"+a*2834+"đ")
+}
+else if (a>300){
+    alert("số tiền bạn đóng là:"+a+2536+"đ")
+}
+else if (a>200){
+    alert ("số tiền bạn đóng là:"+a+2014+"đ")
+}
+else if (a>100){
+    alert ("số tiền bạn đóng là:"+a+1734+"đ")
+}
+else if (a>50){
+    alert ("số tiền bạn đóng là:"+a+1678+"đ")
+}
+else{
+    alert ("mời bạn nhập lại số tiền")
+}
+
+</script>
+</body>
+</html>

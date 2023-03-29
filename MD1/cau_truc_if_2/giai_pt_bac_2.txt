@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giải pt bậc 2</title>
+</head>
+<body>
+<script>
+    var a = +(prompt("giá trị a"));
+    var b = +(prompt("giá trị b"));
+    var c = +(prompt("giá trị c"));
+    var x1,x2
+    var delta = (b*b-4*a*c);
+    if(delta ===0)
+    {
+        alert("phuong trinh co nghiem kep");
+        x1=-b/(2*a) ;
+        x2=-b/(2*a);
+        form.x.value=eval(x1);
+        form.y.value=eval(x2);
+    }
+    else if (delta < 0)
+        {
+        alert("phuong trinh co hai nghiem");
+    x1=(-b-Math.sqr(delta))/(2*x1);
+    x2=(-b+Math.sqr(delta))/(2*x2);
+    form.x.value=eval(x1);
+    form.y.value=eval(x2);
+    }
+
+
+
+
+</script>
+</body>
+</html>

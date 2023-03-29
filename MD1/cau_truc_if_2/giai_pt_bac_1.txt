@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giải pt bậc 1</title>
+</head>
+<body>
+<script>
+    var a = +(prompt("giá trị a"));
+    var b = +(prompt("giá trị b"));
+    var x = -b / a;
+    if (a <= 0){
+        alert("phuong trinh vo nghiem");
+    } else{
+        alert("phuong trinh vo nghiem"+x);
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính số thuế cá nhân</title>
+</head>
+<body>
+<script>
+let a = prompt("nhập số tiền thuế");
+if (a>80){
+    alert ("số tiền thuế bạn đóng là:"+a*(30/100)+"đ")
+}
+else if (a>52){
+    alert("số tiền thuế bạn đóng là:"+a+(25/100)+"đ")
+}
+else if (a>32){
+    alert ("số tiền thuế bạn đóng là:"+a+(20/100)+"đ")
+}
+else if (a>18){
+    alert ("số tiền thuế bạn đóng là:"+a+(15/100)+"đ")
+}
+else if (a>10){
+    alert ("số tiền thuế bạn đóng là:"+a+(10/100)+"đ")
+}
+else{
+    alert ("mời bạn nhập lại số tiền")
+}
+
+</script>
+</body>
+</html>
