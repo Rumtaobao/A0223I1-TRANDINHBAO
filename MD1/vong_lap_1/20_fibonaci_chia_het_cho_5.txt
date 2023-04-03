@@ -1,0 +1,33 @@
+ <meta charset="UTF-8">
+    <title>điều hòa</title>
+</head>
+<body>
+<script>
+    let D = 0, D0 = 0, D1 = 0
+    let chia5 = ""
+    let fibonacci = "";
+    for (let i = 0; i < 20; i++) {
+        if (i == 0) {
+            D = 1
+            D1 = 1
+            fibonacci += D + " "
+        } else {
+            D = D0 + D1
+            D0 = D1
+            D1 = D
+            fibonacci += D + " "
+            console.log(i + "=" + D)
+            if (D % 5 == 0) {
+                chia5 = D
+                break
+            }
+
+        }
+
+    }
+    document.write("số chia hết cho 5 là" + chia5);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game đoán số</title>
+    <link rel="stylesheet" href="gamedoanso.css">
+</head>
+<body>
+<script>
+let khoangcach = Number(prompt("game đoán số bắt đầu từ 0-"));
+let nhapsovao = Number(prompt("nhập số muốn dự đoán"));
+let soramdom
+if (khoangcach) {
+    soramdom = Math.floor(Math.random() * khoangcach)
+    if (soramdom == nhapsovao) {
+        alert("chúc mừng bạn đoán đúng số");
+    } else {
+        while (soramdom != nhapsovao) {
+            alert("chúc bạn may mắn lần sau số đúng là" + soramdom);
+            nhapsovao = Number(prompt("mời bạn nhập số dự đoán"));
+        }
+        alert("chúc mừng bingo")
+    }
+}
+</script>
+</body>
+</html>
