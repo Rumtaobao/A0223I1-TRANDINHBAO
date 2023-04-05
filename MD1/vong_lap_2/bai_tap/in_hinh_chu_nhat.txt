@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ung dung * tamgiac</title>
+</head>
+<body>
+<script type="text/javascript">
+    //Hien thi dialog -> cho phep nhap gia tri cua N
+    var N = prompt('Nhap gia tri N')
+    //Chuyen kieu du lieu cua N tu string toi int
+    N = parseInt(N);
+
+    for (let i = 0; i < N; i++) {
+        for (let j = 0; j < 20; j++) {
+            if(i==0||i==N-1)
+                document.write("*")
+        else{
+                if(j==0||j==19)
+                    document.write("*")
+            else
+                document.write("&nbsp&nbsp")
+            }
+        }
+        document.write("<br/>");
+    }
+
+</script>
+</body>
+</html>

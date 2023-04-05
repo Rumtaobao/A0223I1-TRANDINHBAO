@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh can nang BMI</title>
+</head>
+<body>
+<script>
+    let a = +prompt("nhập số nguyên dương");
+    let sogiaithua = 1;
+    let i = 1;
+    for (i; i <= a; i++) {
+        sogiaithua = sogiaithua * i;
+
+    }
+
+    alert("Số bạn vừa nhập là: " + a + ". Giai thừa = " + sogiaithua);
+
+
+</script>
+</body>
+</html>
