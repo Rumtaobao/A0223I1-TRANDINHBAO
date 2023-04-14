@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    let arr = [5, 8, 12, 3, 7, 15, 19, 20, 6, 1];
+    const n = 10;
+    for (let i = 0; i < n; i++) {
+        arr[i] = parseInt(prompt('Enter element${i+1}:'));
+
+    }
+    const V = parseInt(prompt("nhập giá trị V"))
+    let found = false;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === V) {
+            found = true;
+            break;
+        }
+    }
+    if (found) {
+        document.write(V+"V is in the array");
+    }else{
+        document.write(V+"V is not in the array");
+    }
+
+</script>
+
+</body>
+</html>

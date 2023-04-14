@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    let n = +prompt("mời nhập các số")
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+        arr[i - 1] = +prompt("nhập tiếp phần tử " + (i));
+
+    }
+    const originalArray = [n];
+    const NewArray = originalArray.reverse();
+    document.write("mang thu nhat:" + arr + "</br>");
+    document.write("mang khi doi nguoc vi tri:" + arr.reverse());
+</script>
+
+</body>
+</html>

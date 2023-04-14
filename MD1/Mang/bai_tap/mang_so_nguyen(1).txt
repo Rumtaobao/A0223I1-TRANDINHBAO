@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    let n = +prompt("mời nhập các số")
+    let a = 0
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+        arr[i] = prompt("nhập tiếp phần tử 2" + (i));
+
+    }
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]>=10){
+            a++
+            document.write("nhứng số lớn hơn hoặc bằng 10:"+arr[i]+"<br/>");
+        }
+    }
+    document.write("có"+a+"số lớn hơn hoặc bằng 10:");
+</script>
+
+</body>
+</html>

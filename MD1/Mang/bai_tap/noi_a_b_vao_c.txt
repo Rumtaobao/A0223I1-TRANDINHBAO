@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    let a = [];
+    let b = [];
+    let c = [];
+    for (let i = 0; i < 10; i++) {
+        a[i] = prompt('nhập vào phẩn tử thứ 10 của mảng a');
+        b[i] = prompt('nhập vào phẩn tử thứ 10 của mảng a');
+    }
+    c = a.concat(b);
+    console.log(c);
+</script>
+</body>
+</html>

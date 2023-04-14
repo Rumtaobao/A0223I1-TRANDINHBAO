@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    let n = +prompt("mời nhập các số")
+    let max = 0
+    let arr = [];
+    let a = 0;
+    for (let i = 1; i <= n; i++) {
+        arr[i] = prompt("nhập tiếp phần tử 2" + (i));
+
+    }
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]>max){
+            max=arr[i];
+            a=i+1;
+        }
+    }
+    document.write("số lớn nhất="+max+"vị trí thứ"+a+"trong mảng vừa nhập11");
+</script>
+
+</body>
+</html>

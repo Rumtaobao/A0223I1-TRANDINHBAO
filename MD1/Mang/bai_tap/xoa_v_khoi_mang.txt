@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    var V = parseInt(prompt("nhập giá trị V:"));
+    var index = arr.indexOf(V);
+    if (index !== -1) {
+        arr.splice(index, 1);
+        console.log("xoá phần từ" + V + "khỏi mảng" + arr);
+    } else {
+        console.log("V không thuộc mảng.");
+    }
+
+</script>
+
+</body>
+</html>

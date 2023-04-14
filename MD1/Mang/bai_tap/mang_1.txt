@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh can nang BMI</title>
+</head>
+<body>
+<script>
+   myColor=["Red","Blue","Green","yellow"];
+   console.log(myColor.toString());
+   console.log(myColor.join());
+   
+
+</script>
+</body>
+</html>

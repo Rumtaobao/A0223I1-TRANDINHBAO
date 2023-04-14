@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh can nang BMI</title>
+    <style>
+        [type=text] {
+            width: 220px;
+            font-size: 20px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            padding: 10px 10px 10px 10px;
+        }
+
+        #submit {
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<h2>chào mừng đến với từ điển</h2>
+<form>
+    <input type="text" id="search" placeholder="mời bạn nhập từ cần tìm"/>
+    <input type="button" id="submit" value="tìm kiếm" onclick="check()"/>
+    <h3 id="result">newWords</h3>
+</form>
+<script>
+    function check() {
+        let newWord =document.getElementById("search").value;
+        let ENG = ["hello", "goodbye", "sad"];
+        let VIE = ["xin chào", "tạm biệt", "buồn"];
+        if (ENG.indexOf(newWord)!==1){
+            let index =VIE.indexOf(newWord);
+            document.getElementById("result").innerText=ENG[index] ;
+        }else{
+            document.getElementById("result").innerText= "không thấy từ nào" ;
+        }if(VIE.indexOf(newWord)!==1){
+            let index = ENG.indexOf(newWord);
+            document.getElementById("result").innerText=VIE[index];
+        }else{
+            document.getElementById("result").innerText="đã dịch đúng"
+        }
+
+    }
+
+
+</script>
+</body>
+</html>
