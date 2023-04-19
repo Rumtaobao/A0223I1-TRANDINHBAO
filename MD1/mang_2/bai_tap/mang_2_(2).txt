@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+   let arr=['c','s','c','2','6','1'];
+   let reversedArr=arr.reverse();
+   let result=reversedArr.join("");
+   console.log(result);
+
+
+</script>
+</body>
+</html>

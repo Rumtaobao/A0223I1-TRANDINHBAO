@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    function countWords(str) {
+        str = str.trim();
+        var words = str.split(" ");
+        return words.length;
+    }
+
+    var myString = "Hello world! This is a test string.";
+    var wordCount = countWords(myString);
+    console.log("Số lượng từ trong chuỗi là: " + wordCount);
+
+</script>
+</body>
+</html>
