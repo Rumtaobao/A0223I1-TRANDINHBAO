@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+   function findMinvalue(num1,num2,num3){
+       return Math.min(num1,num2,num3);
+   }
+
+   console.log(findMinvalue(10,8,5));
+   console.log(findMinvalue(100,200,50));
+</script>
+</body>
+</html>

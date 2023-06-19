@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    function isNumeric(char) {
+        return !isNaN(char);
+    }
+
+    console.log(isNumeric('5'));
+    console.log(isNumeric('a'));
+</script>
+</body>
+</html>

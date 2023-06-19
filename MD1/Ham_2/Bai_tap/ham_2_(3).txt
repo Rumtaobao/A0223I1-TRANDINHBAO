@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    function giaithua(n){
+        if(n===0){
+            return 1;
+        }else{
+            return n*giaithua(n-1);
+        }
+
+    }
+
+    var kq=giaithua(8);
+    console.log(kq);

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    function tangGiaTri(num) {
+        return num + 1;
+    }
+   var so = 5;
+    so= tangGiaTri(so);
+    document.write("giá trị mới của số là:"+so);
+</script>
+</body>
+</html>

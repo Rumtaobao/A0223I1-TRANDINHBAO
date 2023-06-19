@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao mang so nguyen</title>
+</head>
+<body>
+<script>
+    function tinhBinhPhuong(so){
+        return so*so;
+    }
+
+    console.log(tinhBinhPhuong(6));
+
+
+</script>
+</body>
+</html>
